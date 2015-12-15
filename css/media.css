@@ -55,7 +55,7 @@
 @media only screen and (max-width : 1100px) {
 	.event_cont {
 		width: 50%;
-	}	
+	}
 	.event{
 		text-align: left;
 	}
@@ -63,7 +63,6 @@
 		text-align: left;
 	}
 	.evelopments_content_table table td {
-  		max-width: 170px;
   		min-width: 80px;
 	}
 	.settings-table table td {
@@ -85,8 +84,8 @@
 		top: 20px;
 		right: -10px;
 	}
-	.evelopments_content_table table td {
-  		max-width: 140px;
+	.evelopments_content_table table td ,
+	.evelopments_content_table_new table td {
   		min-width: 50px;
 	}
 	.settings-table table td {
@@ -96,9 +95,9 @@
 	}
 }
 @media only screen and (max-width : 920px) {
-	.evelopments_content_table table td {
+	.evelopments_content_table table td,
+	.evelopments_content_table_new table td {
   		padding: 9px 5px;
-  		max-width: 140px;
   		min-width: 10px;
 	}
 	.settings-table table td {
@@ -110,10 +109,12 @@
 		margin-left: 25px;
 	}
 	.evelopments_content_table table tr,
+	.evelopments_content_table_new table tr,
 	.settings-table table tr {
 	  font: 12px "RobotoRegular";
 	}
 	.evelopments_content_table table tr:first-child,
+	.evelopments_content_table_new table tr:first-child,
 	.settings-table table tr:first-child {
 	  font: 12px "RobotoRegular";
 	}
@@ -130,6 +131,7 @@
 		padding: 5px 10px;
 	}
 	.evelopments_content_table,
+	.evelopments_content_table_new,
 	.settings-table {
 		overflow: auto;
 		width: 100%;
@@ -141,6 +143,10 @@
 	}
 	.top_block_head_left .search input {
 		margin: 0
+	}
+	.emplyee {
+	    margin: 50px 0 0 0;
+	    text-align: center;
 	}
 }
 /* Extra Small Devices, Phones */
@@ -194,22 +200,28 @@
 	.emplyee {
 		text-align: center;
 	}
-	.emplyee-left,
-	.emplyee-right,
-	.emplyee-middle {
-		margin: 50px 0 0 8px;
-		padding: 23px 5px 30px;
-		vertical-align: top;
-	}
 	.emplyee {
 		margin: 0;
+	}
+
+	.emplyee-right .sandwich-block {
+		margin-left: -32.5px;
+		width: 314px;
+		top: 40px;
+	}
+	.emplyee-right,
+	.emplyee-middle,
+	.emplyee-left{
+		padding: 25px 30px 30px;
+		margin: 50px 0px 0px 0px;
+		vertical-align: top;
 	}
 }
 @media only screen and (max-width : 500px) {
 	.event-block ul li {
 		margin: 0px 3px;
 	}
-	.add-button, .green-button,
+	.add-button,
 	.event-block p {
 		width: 190px;
 		font-size: 15px;
@@ -220,6 +232,29 @@
 	.edit-special .edit-data, .edit-main .edit-data {
 		width: 210px;
 	}
+	.link_gener li{
+		width: auto;
+	}
+	.edit-special,
+	.edit-main{
+		padding: 7px 10px 5px;
+	}
+	.add-edit-block .edit-block{
+		width: 310px;
+		left: -45px;
+	}
+
+	.profile{
+		text-align: center;
+	}
+	.profile h3{
+		margin: 50px 0 0;
+	}
+	.profile .personal-data,.edit-pass,.exit{
+		margin: 50px 0 0;
+		width: 300px;
+		padding: 20px 25px;
+	}
 }
 @media only screen and (max-width : 400px) {
 	.logo_block {
@@ -229,6 +264,10 @@
 	    position: absolute;
 	    top: 5px;
 	    right: -32px;
+	}
+	.link_gener li{
+		font-size: 12px;
+		padding: 10px;
 	}
 }
 /* Custom, iPhone Retina */
