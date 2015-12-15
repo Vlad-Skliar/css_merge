@@ -1574,6 +1574,12 @@ table.tablesorter tr,
   border: 1px solid transparent;
   background: #5cb128 url(../img/sprite.png) no-repeat -18px -195px;
 }
+.emplyee-middle table{
+  text-align: left;
+}
+.emplyee-middle{
+  text-align: center;
+}
 .emplyee-middle .add-button {
   color: #fff;
   font: 14px "RobotoMedium";
@@ -1582,7 +1588,7 @@ table.tablesorter tr,
   -webkit-border-radius: 5px;
   padding: 6px 15px;
   background: #5CB127;
-  display: block;
+  display: inline-block;
   width: 160px;
   margin: 5px 0 0;
   text-align: right;

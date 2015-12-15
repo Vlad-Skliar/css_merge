@@ -144,6 +144,10 @@
 	.top_block_head_left .search input {
 		margin: 0
 	}
+	.emplyee {
+	    margin: 50px 0 0 0;
+	    text-align: center;
+	}
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 580px) {
@@ -196,15 +200,21 @@
 	.emplyee {
 		text-align: center;
 	}
-	.emplyee-left,
-	.emplyee-right,
-	.emplyee-middle {
-		margin: 50px 0 0 8px;
-		padding: 23px 5px 30px;
-		vertical-align: top;
-	}
 	.emplyee {
 		margin: 0;
+	}
+
+	.emplyee-right .sandwich-block {
+		margin-left: -32.5px;
+		width: 314px;
+		top: 40px;
+	}
+	.emplyee-right,
+	.emplyee-middle,
+	.emplyee-left{
+		padding: 25px 30px 30px;
+		margin: 50px 0px 0px 0px;
+		vertical-align: top;
 	}
 }
 @media only screen and (max-width : 500px) {
@@ -233,7 +243,7 @@
 		width: 310px;
 		left: -45px;
 	}
-	
+
 	.profile{
 		text-align: center;
 	}
