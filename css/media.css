@@ -200,21 +200,21 @@
 	.emplyee {
 		text-align: center;
 	}
-	.emplyee-left,
-	.emplyee-right,
-	.emplyee-middle {
-		margin: 50px 0 0 8px;
-		padding: 23px 5px 30px;
-		vertical-align: top;
-	}
 	.emplyee {
 		margin: 0;
 	}
 
 	.emplyee-right .sandwich-block {
-	    margin-left: -7.5px;
-	    width: 264px;
-	    top: 40px;
+		margin-left: -32.5px;
+		width: 314px;
+		top: 40px;
+	}
+	.emplyee-right,
+	.emplyee-middle,
+	.emplyee-left{
+		padding: 25px 30px 30px;
+		margin: 50px 0px 0px 0px;
+		vertical-align: top;
 	}
 }
 @media only screen and (max-width : 500px) {
