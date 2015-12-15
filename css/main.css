@@ -1924,3 +1924,16 @@ th {
 span.title_login, span.title_pw{
   display: none;
 }
+
+ .emplyee-left input[type="button"]{
+  background: #5CB127;
+  cursor: pointer;
+  color: #fff;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  font: 14px "RobotoMedium";
+}
+.emplyee-left input[type="button"]:hover{
+  background: #519B24;
+}
