@@ -829,7 +829,7 @@ aside.menu_block{
 }
 .edit-special .edit-data,
 .edit-main .edit-data {
-  background: #fff
+  background: #fff;
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -1467,11 +1467,9 @@ table.tablesorter tr,
   margin: 0 auto;
 }
 .emplyee-left input[type=checkbox]:checked + label:before{
-
   border: 1px solid transparent;
-  background: #5cb128 url(../img/sprite.png) no-repeat -18px -195px;s
+  background: #5cb128 url(../img/sprite.png) no-repeat -18px -195px;
 }
-
 
 .emplyee-right .sandwich-wrap {
   position: relative;
@@ -1771,4 +1769,158 @@ th {
   margin: 0 0 10px;
   display: block;
   margin: -15px 0 3px;
+}
+
+
+.navigation li a[href$='reports.html']:hover:before,
+.navigation li a[href$='reports.html'].active:before{
+  background-position: -25px -25px;
+}
+
+.navigation li a[href$='event.html']:hover:before,
+.navigation li a[href$='event.html'].active:before{
+  background-position: -31px -57px;
+}
+
+.navigation li a[href$='meeting.html']:hover:before,
+.navigation li a[href$='meeting.html'].active:before{
+  background-position: -31px -87px;
+}
+
+.navigation li a[href$='settings.html']:hover:before,
+.navigation li a[href$='settings.html'].active:before{
+ background-position: -32px -117px;
+}
+
+.navigation li a[href$='meeting.html']:before{
+  background-position: 0 -87px;
+}
+
+.navigation li a[href$='reports.html']:before{
+  background-position: 0 -25px;
+}
+
+.navigation li a[href$='event.html']:before{
+  background-position: 0 -57px;
+}
+
+.navigation li a[href$='settings.html']:before{
+ background-position: 0 -117px;
+}
+
+.emplyee_pop input{
+  margin:0 auto;
+}
+
+#emplee_registry{
+  cursor: pointer;
+}
+
+.emplyee-left{
+  float: left;
+}
+.emplyee-middle{
+  float: right;
+  margin-right: 100px;
+}
+.emplyee-right-wrap{
+  float: left;
+}
+.search_cont{
+  float:left;
+}
+
+.tab_content td{
+  border-left: 1px solid #E2E2E2;
+  border-bottom: 1px solid #E2E2E2;
+}
+
+.table-button .table-edit.active,.table-button .table-edit.active:hover{
+  background-position: 55px 41px;
+  opacity: 1 
+}
+.table-button .table-edit:hover{
+  /*background-position: -17px -20px;*/
+}
+.table-button .table-edit{
+    background-position:26px 35px;
+    opacity: 0.4
+}
+.table-button .table-close.active{
+  background-position: -48px -61px;
+}
+.table-button .table-delete:hover{
+  background-position: 12px 0px;
+}
+.tab_content td[contenteditable]{
+  cursor: pointer
+}
+
+
+#events_links  li,.empty_list{
+  display: block;
+  margin: 10px;
+  padding: 10px 25px;
+  display: block;
+  border: 1px solid #228fc2;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#events_links li:hover,.empty_list,
+#events_links li.active{
+  color: #fff;
+  background: #228fc2;
+}
+#events_links,.empty_list {
+  padding: 10px;
+  line-height: 20px;
+  border: 1px solid #EAEAEA;
+  background: #fff;
+  max-width: 435px;
+}
+.evelopments_content_table_new{
+  float: left;
+}
+.event_cont{
+  margin-left:0;
+}
+.evelopments_content_table table td{
+  min-width: auto;
+}
+
+
+.evelopments_content_table button {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.evelopments_content_table button:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.empty_list{
+  color:#000;
+}
+span.title_login, span.title_pw{
+  display: none;
 }
